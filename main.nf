@@ -91,5 +91,5 @@ workflow {
 }
  
 workflow.onComplete {
-    log.info ( workflow.success ? "\hello mama --> $params.outdir/multiqc_report.html\n" : "Oops .. something went wrong" )
+    log.info ( workflow.success ? "\hello kakakak --> $params.outdir/multiqc_report.html\n" : "Oops .. something went wrong" )
 }
